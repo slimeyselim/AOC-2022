@@ -30,4 +30,5 @@ let top3Elves = elvesCals.slice(0,3).reduce((a,b) => {return +a + +b},0);
 
 console.log("TOP 3 ELVES ",top3Elves);
 
+//
 //bash clear console - reset
