@@ -16,6 +16,7 @@ elves.map(elf => {
 console.log("MAX CALS", maxCalCount);
 
 //PART TWO
+
 let elvesCals: number[] = [];
 
 elves.map(elf => {
@@ -29,6 +30,3 @@ elvesCals.sort((a,b) => b-a);
 let top3Elves = elvesCals.slice(0,3).reduce((a,b) => {return +a + +b},0);
 
 console.log("TOP 3 ELVES ",top3Elves);
-
-//
-//bash clear console - reset
