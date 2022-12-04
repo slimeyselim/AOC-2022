@@ -1,4 +1,3 @@
-import { group } from 'console';
 import * as fs from 'fs';
 const fileName = 'input/003.txt';
 let fileContent = fs.readFileSync(fileName, 'utf8');
